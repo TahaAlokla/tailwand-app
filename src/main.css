@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+
+.navbar{
+    @apply px-4 py-2  flex justify-between flex-wrap
+     
+}
+@screen md{
+    .navbar{
+        @apply px-8
+    }
+}
+
+.box-img>img{
+    @apply max-w-4xl inline-block !important
+}
+
+.owl-prev>span{
+    @apply hidden
+}
+.owl-prev::before{
+    content: "\f060";
+    background: none;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: "FontAwesome";
+    color:#47465A;
+    font-size: 70px;
+    left: 5%;
+    -webkit-text-stroke: 4px #FFF;
+    text-stroke: 4px #FFF;
+
+
+}
+
+.owl-next>span{
+    @apply hidden
+}
+.owl-next::before{
+    content: "\f061";
+    background: none;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-family: "FontAwesome";
+    color:#47465A;
+    font-size: 70px;
+    right: 5%;
+    -webkit-text-stroke: 4px #FFF;
+    text-stroke: 4px #FFF;
+
+
+}
+
+.timeline-yr >span{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    @apply text-white font-semibold transform  -translate-x-1/2  -translate-y-1/2
+}
+@tailwind utilities;

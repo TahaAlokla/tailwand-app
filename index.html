@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwand css app3</title>
+
+    <link rel="stylesheet" href="public/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="public/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/css/coustom.style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap');
+
+        #menu-toggle:checked+#menu-list {
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <button class="btn">  </button>
+
+    <!-- ? Start Header Section ** -->
+
+    <header class="h-auto xl:h-screen font-Maven">
+        <nav class=" container mx-auto navbar-headroom w-full">
+            <div class="lg: pl-6">
+                <a href="#" class=" text-2xl py-2">
+                    <i class="fa fa-user text-3xl mx-2" aria-hidden="true"></i>
+                    <span class="font-bold capitalize">Marvel</span>
+                </a>
+            </div>
+            <label for="menu-toggle" class="md:hidden"><i
+                    class="fa fa-bars block cursor-pointer mr-2 self-center  md:hidden"> </i></label>
+
+            <input type="checkbox" name="" id="menu-toggle" class=" hidden">
+            <div class=" hidden w-full text-center md:flex md:flex-grow md:w-auto" id="menu-list">
+                <ul class="pt-5  md:pt-0 md:flex md:flex-grow md:justify-center">
+                    <li class="mx-4 py-2 capitalize hover:text-yellow-500 hover:font-bold "><a href="#">about</a></li>
+                    <li class="mx-4 py-2 capitalize "><a href="#">projects</a></li>
+                    <li class="mx-4 py-2 capitalize "><a href="#">resume</a></li>
+                    <li class="mx-4 py-2 capitalize "><a href="#">contact</a></li>
+                </ul>
+                <div class="mt-2 md:mt-1 lg:pr-6 color-mode">
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                    <span class=" capitalize">color mode</span>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- ? start Header Content ******************** -->
+        <div class=" container flex mx-auto px-4 flex-wrap md:px-8 py-4 mt-5 justify-center">
+            <section class="sm:w-full  md:w-1/2 pt-24">
+                <p class=" text-textColor px-4 py-2 font-semibold text-sm capitalize">Lorem ipsum dolor sit.</p>
+                <h1 class=" capitalize my-4 text-3xl font-semibold">hey , flolks  <span class="element text-yellow-400"></span></h1>
+                <p class=" capitalize tracking-wide text-lg text-textColor mb-4 ">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Architecto facere error eos, quis quaerat eveniet!</p>
+                <div class=" capitalize w-full">
+                    <button
+                        class=" capitalize w-full rounded-full my-4 font-semibold outline-none mx-auto py-3 px-8 sm:w-auto bg-grey text-textColor">
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        download resume</button>
+                    <button
+                        class=" capitalize w-full rounded-full font-semibold my-4 mx-auto  bg-secondryColor text-white py-3 px-8 sm:w-auto focus:outline-none ">get
+                        a free quote</button>
+                </div>
+            </section>
+            <section class="w-full md:w-1/2 flex justify-center ">
+                <img src="public/undraw_software_engineer_lvl5.svg" alt="header-img" class="w-4/5 mx-auto  mt-10">
+            </section>
+        </div>
+        <!-- ? End  Header Content ******************** -->
+
+    </header>
+    <!-- ** End  Header Section ** -->
+    <!-- ******************  Start Project Section  *********************** -->
+
+    <section>
+        <div class=" container mx-auto text-center">
+            <h1 class=" max-w-xl leading-5 capitalize mt-8 md:text-3xl font-black text-center mx-auto sm:text-xl">Things
+                I have designed for digital media agencies</h1>
+            <div class="owl-carousel owl-theme owl-loaded owl-drag ">
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+                        <div class="owl-item box-img"><img src="public/img/project-image01.png" alt="img1"
+                                class="w-auto sm:w-4/5"></div>
+                        <div class="owl-item box-img"><img src="public/img/project-image02.png" alt="img2"
+                                class="w-auto sm:w-4/5"></div>
+                        <div class="owl-item box-img"><img src="public/img/project-image04.png" alt="img3"
+                                class="w-auto sm:w-4/5"></div>
+                        <div class="owl-item box-img"><img src="public/img/project-image05.png" alt="img4"
+                                class="w-auto sm:w-4/5"></div>
+                        <div class="owl-item box-img"><img src="public/img/project-image03.png" alt="img5"
+                                class="w-auto sm:w-4/5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ******************  End Project Section  *********************** -->
+    <!-- ! ******************   Start Resume Section ************************ -->
+    <section class=" container mx-auto mt-10 px-8 font-Maven pb-20 Resume">
+        <div class="flex flex-wrap Resume">
+            <div class="md:w-1/2 mx-auto sm:w-full">
+
+                <!-- ****  Section 1 ******* -->
+                <h2 class=" capitalize font-bold text-4xl mb-8 text-secondryColor">experiences</h2>
+                <div class="flex my-5">
+                    <div class=" timeline relative">
+                        <div class=" relative timeline-yr w-20 h-20 rounded-full bg-secondryColor"><span>2021</span>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-4 mt-3">
+                            <span class=" font-bold text-black capitalize text-2xl ">project manager</span>
+                            <span class=" capitalize text-secondryColor  ml-1 font-black  text-base">best studio</span>
+                        </h3>
+                        <p class=" text-textColor  tracking-wide text-base font-light">Proin ornare non purus ut rutrum.
+                            Nulla facilisi. Aliquam
+                            laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a
+                            faucibus nunc.
+                        </p>
+                    </div>
+                </div>
+                <!-- ********  Section 2 ******** -->
+                <div class="flex my-5 Resume">
+                    <div class=" timeline relative">
+                        <div class=" relative timeline-yr w-20 h-20 rounded-full bg-secondryColor"><span>2019</span>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-4 mt-3">
+                            <span class=" font-bold text-black capitalize text-2xl ">UI freelancer</span>
+                            <span class=" capitalize text-secondryColor  ml-1 font-black  text-base">digital ace</span>
+                        </h3>
+                        <p class=" text-textColor  tracking-wide text-base font-light">Sed fringilla vitae enim sit amet
+                            cursus. Sed cursus dictum
+                            tortor quis pharetra. Pellentesque habitant morbi tristique
+                            senectus et netus et malesuada fames ac turpis egestas.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex my-5 Resume">
+                    <div class=" timeline relative last-child">
+                        <div class=" relative timeline-yr w-20 h-20 rounded-full bg-secondryColor"><span>2018</span>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-4 mt-3">
+                            <span class=" font-bold text-black capitalize text-2xl ">UX designer</span>
+                            <span class=" capitalize text-secondryColor  ml-1 font-black  text-base">digital ace</span>
+                        </h3>
+                        <p class=" text-textColor  tracking-wide text-base font-light">Fusce rutrum augue id orci
+                            rhoncus molestie. Nunc auctor
+                            dignissim lacus vel iaculis.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="md:w-1/2 mx-auto sm:w-full Resume">
+                <h2 class=" capitalize font-bold text-4xl mb-8 text-secondryColor">eduction</h2>
+                <div class="flex my-5">
+                    <div class=" timeline relative">
+                        <div class=" relative timeline-yr w-20 h-20 rounded-full bg-secondryColor"><span>2021</span>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-4 mt-3">
+                            <span class=" font-bold text-black capitalize text-2xl ">project manager</span>
+                            <span class=" capitalize text-secondryColor  ml-1 font-black  text-base">best studio</span>
+                        </h3>
+                        <p class=" text-textColor  tracking-wide text-base font-light">Proin ornare non purus ut rutrum.
+                            Nulla facilisi. Aliquam
+                            laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a
+                            faucibus nunc.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex my-5">
+                    <div class=" timeline relative last-child">
+                        <div class=" relative timeline-yr w-20 h-20 rounded-full bg-secondryColor"><span>2021</span>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-4 mt-3">
+                            <span class=" font-bold text-black capitalize text-2xl ">project manager</span>
+                            <span class=" capitalize text-secondryColor  ml-1 font-black  text-base">best studio</span>
+                        </h3>
+                        <p class=" text-textColor  tracking-wide text-base  font-light">Proin ornare non purus ut
+                            rutrum. Nulla facilisi. Aliquam
+                            laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a
+                            faucibus nunc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! ******************   End Resume Section ************************ -->
+    <!-- ? *******************  Start Contact section ********************* -->
+    <section class=" container mx-auto px-8 flex flex-wrap">
+
+        <div class=" flex flex-wrap lg:w-1/2  sm:w-full sm:my-4 clear-both mx-auto overflow-hidden">
+            <div class="map-section flex ">
+                <div class="mapouter w-full">
+                    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Damascus&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://123movies-to.org"></a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: auto;
+                                width: auto;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">add google maps</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 400px;
+                                width: 500px;
+                            }
+                        </style>
+                        
+                    </div>
+                    <div class="address-info px-5 pt-8 pb-2 text-left  text-white overflow-hidden ">
+                        <div class="float-left text-left  leading-7 clear-both">
+                            <h3 class="  font-semibold text-2xl text-white mb-2">sey hello</h3>
+                            <address>010 020 0960</address>
+                            <a href="#" class="hover:text-yellow-500">hello@company.co</a>
+                        </div>
+    
+                        <div class="float-right mt-2 ">
+                            <a href="#" class="hover:text-yellow-500"><i class="fa fa-dribbble text-xl mb-3 block"
+                                    aria-hidden="true"></i></a>
+                            <a href="#" class="hover:text-yellow-500"><i class="fa fa-instagram text-xl mb-3 block"
+                                    aria-hidden="true"></i></a>
+                            <a href="#" class="hover:text-yellow-500"><i class="fa fa-youtube-play text-xl mb-3 block"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                      
+                    </div>
+                </div>
+               
+
+            </div>
+
+        </div>
+
+        <div class="form-section lg:w-1/2  sm:w-full sm:my-4  clear-both mx-auto">
+            <h3
+                class="text-left sm:text-3xl md:text-3xl lg:text-3xl font-semibold text-gray-800  max-w-screen-md  font-maven leading-snug mb-4 w-11/12">
+                Interested to work together? Let's talk</h3>
+            <form action="" class="w-4/5 flex flex-wrap">
+                <input
+                    class="border-solid border border-gray-500 px-4 py-3 rounded-sm outline-none my-2 w-full "
+                    type="text" placeholder="Your Name">
+                <input
+                    class="border-solid border border-gray-500 px-4 py-3 rounded-sm outline-none my-2 w-full  "
+                    type="email" placeholder="Email">
+                <textarea class="w-full my-2 border-solid border border-gray-500 px-4 py-2 outline-none" cols="30"
+                    rows="6" placeholder="Message">
+              </textarea>
+                <button class=" float-right capitalize w-full rounded-full font-semibold my-2   bg-yellow-600 text-white py-2 px-4 sm:w-auto focus:outline-none " type="submit">Send Button</button>
+            </form>
+
+        </div>
+
+    </section>
+    <!-- ? ******************* End Contact section ********************* -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="public/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js" integrity="sha512-9UsrKTYzS9smDm2E58MLs0ACtOki+UC4bBq4iK5wi7lJycwqcaiHxr1bdEsIVoK0l5STEzLUdYyDdFQ5OEjczw==" crossorigin="anonymous"></script>
+    <script src="public/js/main.js"></script>
+</body>
+
+</html>
